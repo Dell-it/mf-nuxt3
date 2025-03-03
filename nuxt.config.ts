@@ -40,7 +40,7 @@ export default defineNuxtConfig({
         $client: {
             plugins: [
                 federation({
-                    name: 'NuxtHost',
+                    name: 'NuxtMF',
                     filename: `${isProd ? '_nuxt/' : ''}remoteEntry.js`,
                     manifest: {
                         fileName: `${isProd ? '_nuxt/' : ''}mf-manifest.json`,
