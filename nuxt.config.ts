@@ -52,12 +52,12 @@ export default defineNuxtConfig({
                     },
                     shared: {
                         // does not work in dev
-                        // 'vue': {
-                        //     requiredVersion: "^3.4.12",
-                        //     singleton: false,
-                        //     strictVersion: false,
-                        //     version: "3.5.13"
-                        // }
+                        'vue': {
+                            requiredVersion: "^3.4.12",
+                            singleton: false,
+                            strictVersion: false,
+                            version: "3.5.13"
+                        }
                     },
                 }),
             ],
