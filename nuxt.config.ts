@@ -3,7 +3,8 @@ import {resolve} from "pathe";
 import {federation} from "@module-federation/vite";
 
 const isProd = process.env.NODE_ENV === "production";
-const port = 3001
+const port = Number(process.env.PORT) || 3001
+
 export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
     devtools: {enabled: false},
