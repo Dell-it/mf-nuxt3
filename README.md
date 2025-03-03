@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Module Federation Vite plugin (does not work correctly)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Repository for reproducing and demonstrating the issue:
+[https://github.com/module-federation/vite/issues/268](https://github.com/module-federation/vite/issues/268)
 
 ## Setup
 
