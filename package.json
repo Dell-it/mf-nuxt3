@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@module-federation/vite": "^1.2.3",
+    "nuxt": "^3.15.4",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@module-federation/bridge-vue3": "0.9.1",
+    "@module-federation/enhanced": "0.9.1",
+    "sass-embedded": "^1.85.1"
+  }
+}
