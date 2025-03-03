@@ -19,7 +19,6 @@ export default defineNuxtConfig({
     experimental: {
         asyncEntry: true,
     },
-    ssr: false,
     nitro: {
         esbuild: {
             options: {
